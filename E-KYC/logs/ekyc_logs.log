@@ -49,3 +49,42 @@
 [2024-06-07 15:48:12,639: INFO: app]: Custom theme applied to Streamlit app.
 [2024-06-07 15:48:12,640: INFO: app]: ID card type selected: PAN
 [2024-06-07 15:48:12,641: INFO: app]: Header set for PAN Card registration.
+[2024-07-06 19:41:19,887: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:16:21,551: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:42:39,992: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:50:12,301: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:50:37,224: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+[2024-07-06 20:53:10,022: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:56:21,984: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:58:22,659: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 20:59:56,033: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 21:04:20,475: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 21:07:18,059: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 21:07:35,770: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-06 21:07:58,537: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-06 21:07:59,966: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 09:27:21,033: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 09:27:54,313: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 09:27:55,232: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 11:56:59,498: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 11:57:32,693: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 11:57:34,569: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:00:03,185: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:00:29,873: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 12:00:31,452: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:05:46,441: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:06:14,764: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 12:06:16,343: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:08:41,803: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:09:07,963: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 12:09:09,359: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:11:34,813: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-07 12:12:00,621: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-07 12:12:02,192: INFO: utils]: yaml  file: config.yaml loaded successfully
