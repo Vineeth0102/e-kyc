@@ -6,3 +6,10 @@ artifacts:
   FACE_IMG1: "data\\02_intermediate_data\\extracted_face.jpg"
   FACE_IMG2: "data\\02_intermediate_data\\face_image.jpg"
 
+database:
+  username: "vineeth"
+  password: "Vineeth@24"
+  host: "your_db_host"
+  port: 3306
+  database: "sql"
+  dialect: "mysql+pymysql"
