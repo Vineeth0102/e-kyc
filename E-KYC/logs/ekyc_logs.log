@@ -324,3 +324,532 @@
 [2024-07-07 20:10:00,726: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
 [2024-07-07 20:10:00,730: INFO: app]: ID card ROI extracted.
 [2024-07-07 20:10:00,773: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-15 09:57:44,666: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-15 09:58:24,187: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-15 09:58:25,721: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-15 09:58:26,147: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 09:58:26,147: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 09:58:26,154: INFO: app]: ID card type selected: PAN
+[2024-07-15 09:58:26,154: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 09:58:38,378: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 09:58:38,378: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 09:58:38,378: INFO: app]: ID card type selected: Aadhar
+[2024-07-15 09:58:38,386: INFO: app]: Header set for Aadhar Card registration.
+[2024-07-15 09:58:42,815: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 09:58:42,822: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 09:58:42,824: INFO: app]: ID card type selected: PAN
+[2024-07-15 09:58:42,824: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 09:59:10,377: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 09:59:10,377: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 09:59:10,389: INFO: app]: ID card type selected: PAN
+[2024-07-15 09:59:10,391: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 09:59:10,392: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-15 09:59:10,392: INFO: app]: Face image loaded.
+[2024-07-15 09:59:10,397: ERROR: app]: No face image uploaded.
+[2024-07-15 09:59:17,535: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 09:59:17,543: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 09:59:17,543: INFO: app]: ID card type selected: PAN
+[2024-07-15 09:59:17,543: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 09:59:17,615: INFO: app]: Face image loaded.
+[2024-07-15 09:59:17,657: INFO: app]: ID card image loaded.
+[2024-07-15 09:59:17,707: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-15 09:59:17,707: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-15 09:59:17,767: INFO: app]: ID card ROI extracted.
+[2024-07-15 09:59:19,558: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-15 10:14:30,830: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 10:14:30,830: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 10:14:30,830: INFO: app]: ID card type selected: Aadhar
+[2024-07-15 10:14:30,838: INFO: app]: Header set for Aadhar Card registration.
+[2024-07-15 10:14:30,869: INFO: app]: Face image loaded.
+[2024-07-15 10:14:30,913: INFO: app]: ID card image loaded.
+[2024-07-15 10:14:30,926: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-15 10:14:30,927: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-15 10:14:30,978: INFO: app]: ID card ROI extracted.
+[2024-07-15 10:14:32,597: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-15 10:14:33,815: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 10:14:33,817: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 10:14:33,819: INFO: app]: ID card type selected: PAN
+[2024-07-15 10:14:33,819: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 10:14:33,861: INFO: app]: Face image loaded.
+[2024-07-15 10:14:33,896: INFO: app]: ID card image loaded.
+[2024-07-15 10:14:33,913: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-15 10:14:33,913: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-15 10:14:33,998: INFO: app]: ID card ROI extracted.
+[2024-07-15 10:14:35,952: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-15 10:14:53,784: INFO: app]: Page layout set to wider configuration.
+[2024-07-15 10:14:53,784: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-15 10:14:53,784: INFO: app]: ID card type selected: PAN
+[2024-07-15 10:14:53,792: INFO: app]: Header set for PAN Card registration.
+[2024-07-15 10:14:53,833: INFO: app]: Face image loaded.
+[2024-07-15 10:14:53,866: INFO: app]: ID card image loaded.
+[2024-07-15 10:14:53,884: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-15 10:14:53,884: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-15 10:14:53,933: INFO: app]: ID card ROI extracted.
+[2024-07-15 10:14:56,817: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 12:48:37,838: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 12:50:20,436: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 12:50:49,371: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 12:50:50,420: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 12:50:50,742: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 12:50:50,742: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 12:50:50,742: INFO: app]: ID card type selected: PAN
+[2024-07-18 12:50:50,742: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 12:50:59,517: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 12:50:59,518: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 12:50:59,520: INFO: app]: ID card type selected: PAN
+[2024-07-18 12:50:59,520: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 12:50:59,522: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 12:50:59,523: INFO: app]: Face image loaded.
+[2024-07-18 12:50:59,524: ERROR: app]: No face image uploaded.
+[2024-07-18 12:51:35,037: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 12:51:35,037: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 12:51:35,037: INFO: app]: ID card type selected: PAN
+[2024-07-18 12:51:35,037: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 12:51:35,085: INFO: app]: Face image loaded.
+[2024-07-18 12:51:35,117: INFO: app]: ID card image loaded.
+[2024-07-18 12:51:35,149: INFO: preprocess]: contours are found at, (0, 0, 1043, 1600)
+[2024-07-18 12:51:35,149: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-18 12:51:35,181: INFO: app]: ID card ROI extracted.
+[2024-07-18 12:51:35,808: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 12:56:34,811: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 12:56:34,811: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 12:56:34,819: INFO: app]: ID card type selected: PAN
+[2024-07-18 12:56:34,819: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:01:08,360: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:01:08,375: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:01:08,393: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:01:08,393: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:01:08,393: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:01:08,393: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:01:08,393: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 13:01:08,402: INFO: app]: Face image loaded.
+[2024-07-18 13:01:08,402: ERROR: app]: No face image uploaded.
+[2024-07-18 13:01:11,109: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:01:11,109: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:01:11,109: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:01:11,109: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:01:11,157: INFO: app]: Face image loaded.
+[2024-07-18 13:01:11,197: INFO: app]: ID card image loaded.
+[2024-07-18 13:01:11,214: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 13:01:11,214: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-18 13:01:11,262: INFO: app]: ID card ROI extracted.
+[2024-07-18 13:02:21,419: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:02:37,151: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 13:02:38,021: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:02:38,152: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:02:38,152: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:02:38,152: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:02:38,152: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:02:45,606: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:02:45,606: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:02:45,606: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:02:45,606: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:02:45,614: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 13:02:45,614: INFO: app]: Face image loaded.
+[2024-07-18 13:02:45,614: ERROR: app]: No face image uploaded.
+[2024-07-18 13:02:48,357: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:02:48,357: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:02:48,365: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:02:48,365: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:02:48,389: INFO: app]: Face image loaded.
+[2024-07-18 13:02:48,421: INFO: app]: ID card image loaded.
+[2024-07-18 13:02:48,429: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 13:02:48,429: INFO: utils]: File is exis for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\contour_id.jpg
+[2024-07-18 13:02:48,462: INFO: app]: ID card ROI extracted.
+[2024-07-18 13:02:48,947: ERROR: app]: Failed to extract face from ID card image.
+
+
+
+
+[2024-07-18 13:03:08,122: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:03:08,122: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:03:08,122: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:03:08,122: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:03:15,393: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:03:15,393: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:03:15,393: INFO: app]: ID card type selected: Aadhar
+[2024-07-18 13:03:15,399: INFO: app]: Header set for Aadhar Card registration.
+[2024-07-18 13:03:21,659: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:03:21,659: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:03:21,659: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:03:21,659: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:03:26,439: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:03:26,439: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:03:26,439: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:03:26,439: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:03:26,445: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 13:03:26,469: INFO: app]: Face image loaded.
+[2024-07-18 13:03:26,469: ERROR: app]: No face image uploaded.
+[2024-07-18 13:06:35,095: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:06:49,095: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 13:06:49,899: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:06:50,032: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:06:50,032: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:06:50,032: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:06:50,032: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:06:54,106: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:06:54,106: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:06:54,114: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:06:54,114: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:06:54,114: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 13:06:54,114: INFO: app]: Face image loaded.
+[2024-07-18 13:06:54,114: ERROR: app]: No face image uploaded.
+[2024-07-18 13:06:56,584: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:06:56,585: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:06:56,587: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:06:56,587: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:06:56,615: INFO: app]: Face image loaded.
+[2024-07-18 13:06:56,643: INFO: app]: ID card image loaded.
+[2024-07-18 13:06:56,670: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 13:06:56,671: INFO: app]: ID card ROI extracted.
+[2024-07-18 13:06:57,118: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 13:09:28,737: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:09:28,740: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:09:28,742: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:09:28,742: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:09:28,742: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 13:09:28,742: INFO: app]: Face image loaded.
+[2024-07-18 13:09:28,742: ERROR: app]: No face image uploaded.
+[2024-07-18 13:09:30,729: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 13:09:30,729: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 13:09:30,729: INFO: app]: ID card type selected: PAN
+[2024-07-18 13:09:30,729: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 13:14:53,470: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:15:59,673: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:17:07,044: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:22:50,376: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:23:52,508: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:24:55,432: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:27:32,264: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:28:30,671: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:30:59,150: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:30:59,150: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 13:30:59,150: INFO: utils]: File is exis for data\faces\bibek_face2.jpg
+[2024-07-18 13:33:50,702: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:33:50,702: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 13:33:50,702: INFO: utils]: File is exis for data\02_intermediate_data\face_image.jpg
+[2024-07-18 13:35:38,908: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:35:38,908: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 13:35:38,908: INFO: utils]: File is exis for data\02_intermediate_data\face_image.jpg
+[2024-07-18 13:36:32,555: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:37:20,760: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:38:49,468: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:38:49,468: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 13:38:49,468: INFO: utils]: File is exis for data\faces\bibek_face2.jpg
+[2024-07-18 13:40:41,375: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 13:40:41,375: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 13:40:41,375: INFO: utils]: File is exis for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 14:10:12,061: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:10:30,861: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 14:10:31,903: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:10:31,903: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 14:10:31,903: INFO: utils]: File is exis for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 14:10:41,679: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:10:41,679: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:10:41,679: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:10:41,679: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:10:50,251: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:10:50,256: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:10:50,258: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:10:50,258: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:10:50,258: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 14:10:50,264: INFO: app]: Face image loaded.
+[2024-07-18 14:10:50,264: ERROR: app]: No face image uploaded.
+[2024-07-18 14:10:57,238: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:10:57,238: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:10:57,238: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:10:57,238: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:10:57,278: INFO: app]: Face image loaded.
+[2024-07-18 14:10:57,318: INFO: app]: ID card image loaded.
+[2024-07-18 14:10:57,348: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 14:10:57,349: INFO: app]: ID card ROI extracted.
+[2024-07-18 14:10:59,019: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 14:14:40,433: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:15:02,195: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 14:15:03,342: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:15:03,342: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 14:15:03,342: INFO: utils]: File is exis for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 14:15:16,931: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:15:16,931: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:15:16,931: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:15:16,931: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:15:22,857: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:15:22,857: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:15:22,857: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:15:22,857: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:15:22,857: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 14:15:22,865: INFO: app]: Face image loaded.
+[2024-07-18 14:15:22,865: ERROR: app]: No face image uploaded.
+[2024-07-18 14:15:25,607: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:15:25,607: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:15:25,607: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:15:25,607: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:15:25,634: INFO: app]: Face image loaded.
+[2024-07-18 14:15:25,663: INFO: app]: ID card image loaded.
+[2024-07-18 14:15:25,671: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 14:15:25,671: INFO: app]: ID card ROI extracted.
+[2024-07-18 14:17:34,726: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:17:54,422: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 14:17:55,586: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:17:55,587: INFO: utils]: File is exis for data\faces\bibek_face.jpg
+[2024-07-18 14:17:55,587: INFO: utils]: File is exis for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 14:18:07,920: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:18:07,921: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:18:07,921: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:18:07,921: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:18:08,193: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:18:08,193: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:18:08,193: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:18:08,193: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:18:17,054: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:18:17,054: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:18:17,061: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:18:17,061: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:18:17,061: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 14:18:17,061: INFO: app]: Face image loaded.
+[2024-07-18 14:18:17,061: ERROR: app]: No face image uploaded.
+[2024-07-18 14:18:20,372: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:18:20,372: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:18:20,372: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:18:20,372: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:18:20,414: INFO: app]: Face image loaded.
+[2024-07-18 14:18:20,453: INFO: app]: ID card image loaded.
+[2024-07-18 14:18:20,485: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 14:18:20,485: INFO: app]: ID card ROI extracted.
+[2024-07-18 14:34:02,369: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:34:02,375: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 14:34:02,375: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 14:34:02,375: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 14:34:04,240: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:34:04,240: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:34:04,240: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:34:04,240: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:34:04,240: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 14:34:04,240: INFO: app]: Face image loaded.
+[2024-07-18 14:34:04,240: ERROR: app]: No face image uploaded.
+[2024-07-18 14:34:08,696: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:34:08,698: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:34:08,699: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:34:08,700: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:34:08,701: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 14:34:08,702: INFO: app]: Face image loaded.
+[2024-07-18 14:34:08,703: ERROR: app]: No face image uploaded.
+[2024-07-18 14:34:12,832: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 14:34:12,832: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 14:34:12,832: INFO: app]: ID card type selected: PAN
+[2024-07-18 14:34:12,832: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 14:34:12,856: INFO: app]: Face image loaded.
+[2024-07-18 14:34:12,880: INFO: app]: ID card image loaded.
+[2024-07-18 14:34:12,888: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 14:34:12,888: INFO: app]: ID card ROI extracted.
+[2024-07-18 14:34:13,233: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 15:08:57,717: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 15:09:18,095: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 15:09:19,339: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 15:09:19,339: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 15:09:19,339: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 15:09:29,901: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 15:09:29,901: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 15:09:29,901: INFO: app]: ID card type selected: PAN
+[2024-07-18 15:09:29,901: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 15:09:34,785: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 15:09:34,791: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 15:09:34,791: INFO: app]: ID card type selected: PAN
+[2024-07-18 15:09:34,791: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 15:09:34,791: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 15:09:34,791: INFO: app]: Face image loaded.
+[2024-07-18 15:09:34,791: ERROR: app]: No face image uploaded.
+[2024-07-18 15:09:38,310: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 15:09:38,310: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 15:09:38,310: INFO: app]: ID card type selected: PAN
+[2024-07-18 15:09:38,310: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 15:09:38,359: INFO: app]: Face image loaded.
+[2024-07-18 15:09:38,407: INFO: app]: ID card image loaded.
+[2024-07-18 15:09:38,431: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 15:09:38,431: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:15:35,029: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:15:49,237: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 16:15:50,158: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:15:50,158: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:15:50,158: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:15:53,893: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:15:53,893: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:15:53,895: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:15:53,895: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:16:04,095: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:16:04,095: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:16:04,095: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:16:04,095: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:16:04,095: INFO: preprocess]: Error reading image: 'NoneType' object has no attribute 'read'
+[2024-07-18 16:16:04,095: INFO: app]: Face image loaded.
+[2024-07-18 16:16:04,095: ERROR: app]: No face image uploaded.
+[2024-07-18 16:16:06,967: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:16:06,967: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:16:06,967: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:16:06,975: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:16:07,007: INFO: app]: Face image loaded.
+[2024-07-18 16:16:07,048: INFO: app]: ID card image loaded.
+[2024-07-18 16:16:07,072: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 16:16:07,072: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:16:08,574: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:19:12,400: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:19:12,400: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:19:12,400: INFO: utils]: File is exist for data\faces\bibek_face2.jpg
+[2024-07-18 16:20:13,506: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:20:13,506: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:20:13,506: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:22:10,914: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:22:10,914: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:22:10,914: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:22:18,714: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:22:37,641: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 16:22:38,716: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:22:38,716: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:22:38,716: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:22:47,846: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:22:47,846: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:22:47,846: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:22:47,846: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:22:54,148: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:22:54,148: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:22:54,155: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:22:54,155: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:23:05,374: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:23:05,374: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:23:05,374: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:23:05,374: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:23:05,470: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:23:05,486: INFO: preprocess]: contours are found at, (0, 0, 900, 1600)
+[2024-07-18 16:23:05,486: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:23:07,048: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:24:45,626: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:25:05,443: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 16:25:06,542: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:25:06,542: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:25:06,542: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:25:16,872: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:25:16,877: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:25:16,884: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:25:16,888: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:25:22,928: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:25:22,933: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:25:22,933: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:25:22,933: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:25:22,941: ERROR: preprocess]: Error reading uploaded image: 'NoneType' object has no attribute 'read'
+[2024-07-18 16:25:22,957: ERROR: app]: Face image not uploaded or could not be read.
+[2024-07-18 16:25:26,613: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:25:26,613: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:25:26,613: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:25:26,613: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:25:26,700: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:25:26,716: INFO: preprocess]: Contours are found at: (0, 0, 900, 1600)
+[2024-07-18 16:25:26,716: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:25:28,268: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:27:00,577: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:27:19,556: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 16:27:20,675: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:27:20,675: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:27:20,675: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:27:30,897: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:27:30,897: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:27:30,897: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:27:30,897: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:27:47,364: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:27:47,364: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:27:47,373: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:27:47,375: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:27:47,375: ERROR: preprocess]: Error reading uploaded image: 'NoneType' object has no attribute 'read'
+[2024-07-18 16:27:47,380: ERROR: app]: Face image not uploaded or could not be read.
+[2024-07-18 16:27:50,719: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:27:50,721: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:27:50,723: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:27:50,724: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:27:50,793: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:27:50,809: INFO: preprocess]: Contours are found at: (0, 0, 900, 1600)
+[2024-07-18 16:27:50,809: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:27:52,234: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:31:00,687: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:31:18,538: WARNING: module_wrapper]: From C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2024-07-18 16:31:19,273: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-07-18 16:31:19,273: INFO: utils]: File is exist for data\faces\bibek_face.jpg
+[2024-07-18 16:31:19,273: INFO: utils]: File is exist for data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:31:22,924: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:31:22,924: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:31:22,924: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:31:22,924: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:31:28,902: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:31:28,902: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:31:28,902: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:31:28,902: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:31:28,910: ERROR: preprocess]: Uploaded image file is None.
+[2024-07-18 16:31:28,910: ERROR: preprocess]: Error reading uploaded image: Uploaded image file is None.
+[2024-07-18 16:31:28,910: ERROR: app]: Face image not uploaded or could not be read.
+[2024-07-18 16:31:32,813: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:31:32,813: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:31:32,816: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:31:32,816: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:31:32,876: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:31:32,901: INFO: preprocess]: Contours are found at: (0, 0, 900, 1600)
+[2024-07-18 16:31:32,901: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:31:34,569: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:34:50,668: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:34:50,668: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:34:50,668: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:34:50,668: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:34:50,748: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:34:50,759: INFO: preprocess]: Contours are found at: (0, 0, 900, 1600)
+[2024-07-18 16:34:50,759: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:34:51,047: ERROR: app]: Failed to extract face from ID card image.
+[2024-07-18 16:35:00,199: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:35:00,199: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:35:00,202: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:35:00,202: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:35:00,285: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:35:00,288: INFO: preprocess]: Contours are found at: (0, 0, 449, 409)
+[2024-07-18 16:35:00,289: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:35:00,373: INFO: utils]: File is exist for data\02_intermediate_data\face_image.jpg
+[2024-07-18 16:35:00,430: INFO: preprocess]: Image saved successfully: data\02_intermediate_data\face_image.jpg
+[2024-07-18 16:35:00,438: INFO: app]: Faces extracted and saved.
+[2024-07-18 16:35:00,438: INFO: utils]: File is exist for data\02_intermediate_data\face_image.jpg
+[2024-07-18 16:35:00,438: INFO: utils]: File is exist for C:\Users\vineeth\OneDrive\Desktop\draft\e-kyc\E-KYC\data\02_intermediate_data\extracted_face.jpg
+[2024-07-18 16:35:01,860: INFO: app]: Face verification status: successful.
+[2024-07-18 16:35:01,860: INFO: ocr_engine]: Text Extraction Started...
+[2024-07-18 16:35:01,860: WARNING: easyocr]: Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+[2024-07-18 16:35:01,885: WARNING: easyocr]: Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[2024-07-18 16:35:15,915: INFO: easyocr]: Download complete
+[2024-07-18 16:35:15,915: WARNING: easyocr]: Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+[2024-07-18 16:35:22,310: INFO: easyocr]: Download complete.
+[2024-07-18 16:35:24,744: INFO: ocr_engine]: Inside Try-Catch...
+[2024-07-18 16:35:25,534: INFO: app]: Text extracted and information parsed from ID card.
+[2024-07-18 16:35:55,165: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:35:55,170: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:35:55,170: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:35:55,170: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:36:15,490: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:36:15,490: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:36:15,497: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:36:15,498: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:36:15,498: ERROR: preprocess]: Uploaded image file is None.
+[2024-07-18 16:36:15,498: ERROR: preprocess]: Error reading uploaded image: Uploaded image file is None.
+[2024-07-18 16:36:15,498: ERROR: app]: Face image not uploaded or could not be read.
+[2024-07-18 16:36:53,160: INFO: app]: Page layout set to wider configuration.
+[2024-07-18 16:36:53,160: INFO: app]: Custom theme applied to Streamlit app.
+[2024-07-18 16:36:53,160: INFO: app]: ID card type selected: PAN
+[2024-07-18 16:36:53,168: INFO: app]: Header set for PAN Card registration.
+[2024-07-18 16:36:53,233: INFO: app]: ID card image and face image loaded.
+[2024-07-18 16:36:53,249: INFO: preprocess]: Contours are found at: (0, 0, 900, 1600)
+[2024-07-18 16:36:53,249: INFO: app]: ID card ROI extracted.
+[2024-07-18 16:36:54,345: ERROR: app]: Failed to extract face from ID card image.

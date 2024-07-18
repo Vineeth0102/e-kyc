@@ -21,9 +21,9 @@ cascade_path = artifacts['HAARCASCADE_PATH']
 output_path = artifacts['INTERMIDEIATE_DIR']
 
 def detect_and_extract_face(img):
-
-    # Read the image
-    # img = cv2.imread(image_path)
+    if img is None:
+        logging.error("The image provided to detect_and_extract_face is None.")
+        return None
 
     # Convert the image to grayscale (Haar cascade works better with grayscale images)
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -46,37 +46,24 @@ def detect_and_extract_face(img):
     # Extract the largest face
     if largest_face is not None:
         (x, y, w, h) = largest_face
-        # extracted_face = img[y:y+h, x:x+w]
-        
-        # Increase dimensions by 15%
         new_w = int(w * 1.50)
         new_h = int(h * 1.50)
-        
-        # Calculate new (x, y) coordinates to keep the center of the face the same
         new_x = max(0, x - int((new_w - w) / 2))
         new_y = max(0, y - int((new_h - h) / 2))
 
-        # Extract the enlarged face
-        extracted_face = img[new_y:new_y+new_h, new_x:new_x+new_w]
-
-        # Convert the extracted face to RGB
-        # extracted_face_rgb = cv2.cvtColor(extracted_face, cv2.COLOR_BGR2RGB)
-
-        
+        extracted_face = img[new_y:new_y + new_h, new_x:new_x + new_w]
         current_wd = os.getcwd()
         filename = os.path.join(current_wd, output_path, "extracted_face.jpg")
 
         if os.path.exists(filename):
-            # Remove the existing file
             os.remove(filename)
 
         cv2.imwrite(filename, extracted_face)
         print(f"Extracted face saved at: {filename}")
         return filename
-
-        # return extracted_face_rgb
     else:
         return None
+
 
 def face_recog_face_comparison(image1_path="data\\02_intermediate_data\\extracted_face.jpg", image2_path = "data\\02_intermediate_data\\face_image.jpg"):
 
@@ -162,10 +149,23 @@ def get_face_embeddings(image_path):
     return None
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    id_card = "data\\01_raw_data\\pan_2.jpg"
-    img = cv2.imread(id_card)
-    # face_path = "data\\01_raw_data\\bibek_face.jpg"
-    extracted_face_path = detect_and_extract_face(img)
-    # face_comparison(extracted_face_path, face_path)
+#     id_card = "data\\01_raw_data\\pan_2.jpg"
+#     img = cv2.imread(id_card)
+#     # face_path = "data\\01_raw_data\\bibek_face.jpg"
+#     extracted_face_path = detect_and_extract_face(img)
+#     # face_comparison(extracted_face_path, face_path)
+
+# id_card = "data\\01_raw_data\\aadhar.png"
+# img = cv2.imread(id_card)
+# detect_and_extract_face(img)
+
+# extracted_face_path = "data\\faces\\bibek_face.jpg"
+# face_path = "data\\faces\\bibek_face2.jpg"
+
+
+extracted_face_path = "data\\faces\\bibek_face.jpg"
+face_path = "data\\02_intermediate_data\\extracted_face.jpg"
+
+face_comparison(extracted_face_path, face_path)

@@ -7,122 +7,136 @@ from utils import read_yaml, file_exists
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
-logging.basicConfig(filename=os.path.join(log_dir,"ekyc_logs.log"), level=logging.INFO, format=logging_str, filemode="a")
-
+logging.basicConfig(filename=os.path.join(log_dir, "ekyc_logs.log"), level=logging.INFO, format=logging_str, filemode="a")
 
 config_path = "config.yaml"
 config = read_yaml(config_path)
 
 artifacts = config['artifacts']
 intermediate_dir_path = artifacts['INTERMIDEIATE_DIR']
-conour_file_name = artifacts['CONTOUR_FILE']
+contour_file_name = artifacts['CONTOUR_FILE']
 
 def read_image(image_path, is_uploaded=False):
     if is_uploaded:
         try:
+            if image_path is None:
+                logging.error("Uploaded image file is None.")
+                raise ValueError("Uploaded image file is None.")
             # Read image using OpenCV
             image_bytes = image_path.read()
             img = cv2.imdecode(np.frombuffer(image_bytes, np.uint8), cv2.IMREAD_COLOR)
             if img is None:
-                logging.info("Failed to read image: {}".format(image_path))
-                raise Exception("Failed to read image: {}".format(image_path))
+                logging.error("Failed to decode uploaded image.")
+                raise ValueError("Failed to decode uploaded image.")
             return img
         except Exception as e:
-            logging.info(f"Error reading image: {e}")
-            print("Error reading image:", e)
+            logging.error(f"Error reading uploaded image: {e}")
+            print("Error reading uploaded image:", e)
             return None
     else:
         try:
+            if not os.path.exists(image_path):
+                logging.error(f"Image path does not exist: {image_path}")
+                raise ValueError(f"Image path does not exist: {image_path}")
             img = cv2.imread(image_path)
             if img is None:
-                logging.info("Failed to read image: {}".format(image_path))
-                raise Exception("Failed to read image: {}".format(image_path))
+                logging.error(f"Failed to read image from path: {image_path}")
+                raise ValueError(f"Failed to read image from path: {image_path}")
             return img
         except Exception as e:
-            logging.info(f"Error reading image: {e}")
-            print("Error reading image:", e)
+            logging.error(f"Error reading image from path: {e}")
+            print("Error reading image from path:", e)
             return None
 
-  
-
 def extract_id_card(img):
-    """
-    Extracts the ID card from an image containing other backgrounds.
+    try:
+        gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        blur = cv2.GaussianBlur(gray_img, (5, 5), 0)
+        thresh = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
 
-    Args:
-        img (np.ndarray): The input image.
+        contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    Returns:
-        np.ndarray: The cropped image containing the ID card, or None if no ID card is detected.
-    """
+        largest_contour = None
+        largest_area = 0
+        for cnt in contours:
+            area = cv2.contourArea(cnt)
+            if area > largest_area:
+                largest_contour = cnt
+                largest_area = area
 
-    # Convert image to grayscale
-    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        if largest_contour is None:
+            logging.error("No contours found in the image.")
+            return None, None
 
-    # Noise reduction
-    blur = cv2.GaussianBlur(gray_img, (5, 5), 0)
+        x, y, w, h = cv2.boundingRect(largest_contour)
+        logging.info(f"Contours are found at: {(x, y, w, h)}")
 
-    # Adaptive thresholding
-    thresh = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
+        current_wd = os.getcwd()
+        filename = os.path.join(current_wd, intermediate_dir_path, contour_file_name)
+        contour_id = img[y:y+h, x:x+w]
+        is_exists = file_exists(filename)
+        if is_exists:
+            os.remove(filename)
 
-    # Find contours
-    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        cv2.imwrite(filename, contour_id)
 
-    # Select the largest contour (assuming the ID card is the largest object)
-    largest_contour = None
-    largest_area = 0
-    for cnt in contours:
-        area = cv2.contourArea(cnt)
-        if area > largest_area:
-            largest_contour = cnt
-            largest_area = area
-
-    # If no large contour is found, assume no ID card is present
-    if not largest_contour.any():
-        return None
-
-    # Get bounding rectangle of the largest contour
-    x, y, w, h = cv2.boundingRect(largest_contour)
-
-    logging.info(f"contours are found at, {(x, y, w, h)}")
-    # logging.info("Area largest_area)
-
-    # Apply additional filtering (optional):
-    # - Apply bilateral filtering for noise reduction
-    # filtered_img = cv2.bilateralFiltering(img[y:y+h, x:x+w], 9, 75, 75)
-    # - Morphological operations (e.g., erosion, dilation) for shape refinement
-    current_wd = os.getcwd()
-    filename = os.path.join(current_wd,intermediate_dir_path, conour_file_name)
-    contour_id = img[y:y+h, x:x+w]
-    is_exists = file_exists(filename)
-    if is_exists:
-        # Remove the existing file
-        os.remove(filename)
-
-    cv2.imwrite(filename, contour_id)
-
-    return contour_id, filename
-
+        return contour_id, filename
+    except Exception as e:
+        logging.error(f"Error extracting ID card: {e}")
+        print("Error extracting ID card:", e)
+        return None, None
 
 def save_image(image, filename, path="."):
-  """
-  Saves an image to a specified path with the given filename.
+    try:
+        full_path = os.path.join(path, filename)
+        is_exists = file_exists(full_path)
+        if is_exists:
+            os.remove(full_path)
 
-  Args:
-      image (np.ndarray): The image data (NumPy array).
-      filename (str): The desired filename for the saved image.
-      path (str, optional): The directory path to save the image. Defaults to "." (current directory).
-  """
+        cv2.imwrite(full_path, image)
 
-  # Construct the full path
-  full_path = os.path.join(path, filename)
-  is_exists = file_exists(full_path)
-  if is_exists:
-        # Remove the existing file
-        os.remove(full_path)
+        logging.info(f"Image saved successfully: {full_path}")
+        return full_path
+    except Exception as e:
+        logging.error(f"Error saving image: {e}")
+        print("Error saving image:", e)
+        return None
 
-  # Save the image using cv2.imwrite
-  cv2.imwrite(full_path, image)
+def detect_and_extract_face(img):
+    try:
+        gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        face_cascade = cv2.CascadeClassifier(config['artifacts']['HAARCASCADE_PATH'])
 
-  logging.info(f"Image saved successfully: {full_path}")
-  return full_path
+        faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.1, minNeighbors=5)
+
+        max_area = 0
+        largest_face = None
+        for (x, y, w, h) in faces:
+            area = w * h
+            if area > max_area:
+                max_area = area
+                largest_face = (x, y, w, h)
+
+        if largest_face is not None:
+            (x, y, w, h) = largest_face
+            new_w = int(w * 1.50)
+            new_h = int(h * 1.50)
+            new_x = max(0, x - int((new_w - w) / 2))
+            new_y = max(0, y - int((new_h - h) / 2))
+
+            extracted_face = img[new_y:new_y+new_h, new_x:new_x+new_w]
+
+            filename = os.path.join(os.getcwd(), config['artifacts']['INTERMIDEIATE_DIR'], "extracted_face.jpg")
+            if os.path.exists(filename):
+                os.remove(filename)
+
+            cv2.imwrite(filename, extracted_face)
+            logging.info(f"Extracted face saved at: {filename}")
+            return filename
+        else:
+            logging.error("No faces detected in the image.")
+            return None
+    except Exception as e:
+        logging.error(f"Error detecting and extracting face: {e}")
+        print("Error detecting and extracting face:", e)
+        return None

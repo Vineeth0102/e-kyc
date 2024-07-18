@@ -5,10 +5,10 @@ import logging
 import time
 
 
-def file_exists(file_path):
+def file_exists(file_path) -> bool:
     is_exist = os.path.exists(file_path)
     if is_exist:
-        logging.info(f"File is exis for {file_path}")
+        logging.info(f"File is exist for {file_path}")
         return True
 
 def read_yaml(path_to_yaml:str) -> dict:
