@@ -1,4 +1,5 @@
 import os
+import cv2
 import logging
 import streamlit as st
 from sqlalchemy import create_engine
@@ -104,6 +105,10 @@ def main_content(image_file, face_image_file, engine):
         
         image_roi, _ = extract_id_card(image)
         logging.info("ID card ROI extracted.")
+
+        # id_card = "data\\01_raw_data\\aadhar.png"
+        # img = cv2.imread(id_card)
+        # detect_and_extract_face(img)
 
         face_image_path2 = detect_and_extract_face(image_roi)
         if face_image_path2 is None:

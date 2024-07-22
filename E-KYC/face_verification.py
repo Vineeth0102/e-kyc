@@ -157,15 +157,15 @@ def get_face_embeddings(image_path):
 #     extracted_face_path = detect_and_extract_face(img)
 #     # face_comparison(extracted_face_path, face_path)
 
-# id_card = "data\\01_raw_data\\aadhar.png"
-# img = cv2.imread(id_card)
-# detect_and_extract_face(img)
+id_card = "data\\01_raw_data\\aadhar.png"
+img = cv2.imread(id_card)
+detect_and_extract_face(img)
 
 # extracted_face_path = "data\\faces\\bibek_face.jpg"
 # face_path = "data\\faces\\bibek_face2.jpg"
 
 
-extracted_face_path = "data\\faces\\bibek_face.jpg"
-face_path = "data\\02_intermediate_data\\extracted_face.jpg"
+# extracted_face_path = "data\\faces\\bibek_face.jpg"
+# face_path = "data\\02_intermediate_data\\extracted_face.jpg"
 
-face_comparison(extracted_face_path, face_path)
+# face_comparison(extracted_face_path, face_path)
